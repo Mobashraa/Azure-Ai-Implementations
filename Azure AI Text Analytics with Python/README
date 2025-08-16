@@ -1,0 +1,65 @@
+🚀 Azure AI Text Analytics with Python
+
+This project demonstrates how to use Azure Cognitive Services - Text Analytics API with Python. It connects to the Azure AI service, authenticates using environment variables, and performs language detection on user-provided text.
+
+📂 Project Structure
+.
+├── rest-client/
+│   ├── sdk-client.py       # Python script to connect and analyze text
+│   ├── .env                # Environment variables (endpoint, key)
+│   └── requirements.txt    # Python dependencies
+└── README.md
+
+⚙ Features
+
+✅ Connects to Azure Cognitive Services
+
+✅ Uses Text Analytics API for language detection
+
+✅ Reads API Key & Endpoint from .env file
+
+✅ Interactive CLI to analyze text input
+
+* Prerequisites
+
+An Azure Subscription with Cognitive Services enabled
+
+Python 3.8+ installed
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+requirements.txt
+
+azure-ai-textanalytics
+python-dotenv
+
+📌 Setup
+
+Create a .env file in your project folder and add your Azure credentials:
+
+AI_SERVICE_ENDPOINT="https://<your-resource-name>.cognitiveservices.azure.com/"
+AI_SERVICE_KEY="<your-api-key>"
+
+
+Run the Python client:
+
+python sdk-client.py
+
+🖥️ Usage
+
+Example run:
+
+Enter some text ("quit" to stop): hello  
+
+Language: English
+
+📘 Learning Objectives
+
+Learn how to authenticate with Azure Cognitive Services
+
+Use the Azure Text Analytics SDK in Python
+
+Detect language from user input text
