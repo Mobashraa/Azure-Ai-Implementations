@@ -1,0 +1,31 @@
+# 🌍 Azure Language Detector
+
+A simple Python project that uses **Azure Cognitive Services Text Analytics** to detect the language of user-provided text.  
+
+## 🚀 Features
+- Detects the primary language of text input  
+- Runs interactively until you type `quit`  
+- Secure environment variable handling with `.env`  
+
+ 
+1.Setup Instructions
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/azure-language-detector.git
+cd azure-language-detector
+
+
+2.Create & activate a virtual environment
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+
+3. Install dependencies
+pip install -r requirements.txt
+
+
+4.Example Run
+Enter some text ("quit" to stop)
+Hola, cómo estás?
+
+Language: Spanish
